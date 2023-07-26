@@ -1,0 +1,2 @@
+Código para criar Base de Calendário e Datas:
+= List.Dates(#date(1900,1,1), Number.From(DateTime.LocalNow())- Number.From(#date(1900,1,1)) ,#duration(1,0,0,0))
